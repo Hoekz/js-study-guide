@@ -1,6 +1,7 @@
 # Helpful Links
 
 ## Miscellaneous
+ - [Web Applications 101](https://www.robinwieruch.de/web-applications/)
  - [LaunchCode JavaScript Course](https://education.launchcode.org/intro-to-professional-web-dev/index-full.html)
  - [App Services JavaScript Community](https://www.wwt.com/community/javascript-development/about)
 
