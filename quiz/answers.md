@@ -134,15 +134,15 @@ Now Supported:
 
 ### 4 - What are some of the global properties available in NodeJS?
 
-`require`: function for including other packages
-`process`: information about the current process, including:
+- `require`: function for including other packages
+- `process`: information about the current process, including:
   - `cwd`: the current working directory
   - `env`: the environment variables present when the application was started
   - `argv`: the arguments that were passed to the process, e.g. `node my-app <arg1> <arg2>`
-`Math`: the standard global math object
-`setTimeout`, `setInterval`, `setImmediate`: functions that take a call back to run after a specified amount of time
-`Buffer`: effectively a generic structure that represents an array of bytes
-`console`: standard object for sending data to the terminal, e.g. `console.log(message)`, `console.warn(error)`
+- `Math`: the standard global math object
+- `setTimeout`, `setInterval`, `setImmediate`: functions that take a call back to run after a specified amount of time
+- `Buffer`: effectively a generic structure that represents an array of bytes
+- `console`: standard object for sending data to the terminal, e.g. `console.log(message)`, `console.warn(error)`
 
 ## General
 
