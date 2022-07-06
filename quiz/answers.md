@@ -62,27 +62,27 @@ A function with more terse syntax that can immediately return and binds to the c
 
 ### 4 - What is the difference between 'in' and 'of'?
 
-'in': used for keys, can iterate over all in an object/array, or can check for preference
-'of': used for values *in an iterable* (like an array), can only iterate
+- 'in': used for keys, can iterate over all in an object/array, or can check for preference
+- 'of': used for values *in an iterable* (like an array), can only iterate
 
 ### 5 - What are some of the immutable array methods and what do they do?
 
-slice: creates a new array from a subset of the existing array based off indexes, e.g. nums.slice(1, 5)
-map: creates a new array where each item in the existing array is transformed by a function, e.g. nums.map(double)
-filter: creates a new array where each item comes from the existing array when it passes a test, e.g. nums.filter(isEven)
-reduce: creates an aggregate value from all items in the array, extremely generic, e.g. nums.reduce(sum) or nums.reduce(max)
-every: checks whether every item in the array passes a test, e.g. nums.every(isEven)
-some: checks whether at least one item in the array passes a test, e.g. nums.some(isEven)
-find: returns the first item in the array that passes a test, e.g. nums.find(isEven)
-findIndex: returns the index of the first item in the array that passes a test, e.g. nums.findIndex(isEven) 
+- slice: creates a new array from a subset of the existing array based off indexes, e.g. nums.slice(1, 5)
+- map: creates a new array where each item in the existing array is transformed by a function, e.g. nums.map(double)
+- filter: creates a new array where each item comes from the existing array when it passes a test, e.g. nums.filter(isEven)
+- reduce: creates an aggregate value from all items in the array, extremely generic, e.g. nums.reduce(sum) or nums.reduce(max)
+- every: checks whether every item in the array passes a test, e.g. nums.every(isEven)
+- some: checks whether at least one item in the array passes a test, e.g. nums.some(isEven)
+- find: returns the first item in the array that passes a test, e.g. nums.find(isEven)
+- findIndex: returns the index of the first item in the array that passes a test, e.g. nums.findIndex(isEven) 
 
 ### 6 - What are some of the mutating array methods and what do they do?
 
-push: adds (an) item(s) to the end of the array
-unshift: adds an item to the start of the array
-pop: removes an item from the end of the array and returns it
-shift: removes an item from the start of the array and returns it
-splice: starting from an index, removes a specified amount of items and inserts (an) item(s) in the same location
+- push: adds (an) item(s) to the end of the array
+- unshift: adds an item to the start of the array
+- pop: removes an item from the end of the array and returns it
+- shift: removes an item from the start of the array and returns it
+- splice: starting from an index, removes a specified amount of items and inserts (an) item(s) in the same location
 
 ### 7 - What are the main 3 (2-ish) ways of handling asynchronous code?
 
