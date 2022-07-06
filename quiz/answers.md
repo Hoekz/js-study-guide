@@ -86,13 +86,13 @@ splice: starting from an index, removes a specified amount of items and inserts 
 
 ### 7 - What are the main 3 (2-ish) ways of handling asynchronous code?
 
-Callbacks: passing or attaching a function to listen for when the asynchronous work is done
-Promises: Creates a structure that can be chained together with `.then` and `.catch` calls for serial asynchronous processes
-Async/Await: modern syntax to write synchronous-style code that is actually asynchronous using promises
-Bonus related libraries:
- - RXJS
- - MobX
- - axios
+- Callbacks: passing or attaching a function to listen for when the asynchronous work is done
+- Promises: Creates a structure that can be chained together with `.then` and `.catch` calls for serial asynchronous processes
+- Async/Await: modern syntax to write synchronous-style code that is actually asynchronous using promises
+- Bonus related libraries:
+  - RXJS
+  - MobX
+  - axios
 
 ### 8 - How do you install and use a new package?
 
@@ -125,12 +125,12 @@ Now Supported:
 
 ### 3 - What are some of the built-in packages of Node?
 
-`fs`: access to the file system (read, write, move, etc.)
-`path`: utility for referencing file system paths agnostic to the platform (join two paths, get just the name of a file, get the extension of a file)
-`crypto`: cryptographic utilities such as hashing or pseudo-random number generation
-`http`: package for creating HTTP requests and servers, not recommended to use directly
-`os`: access to information about or from the operating system (OS version, CPU core structure and count)
-`child_process`: access to create subprocesses, including other node apps
+- `fs`: access to the file system (read, write, move, etc.)
+- `path`: utility for referencing file system paths agnostic to the platform (join two paths, get just the name of a file, get the extension of a file)
+- `crypto`: cryptographic utilities such as hashing or pseudo-random number generation
+- `http`: package for creating HTTP requests and servers, not recommended to use directly
+- `os`: access to information about or from the operating system (OS version, CPU core structure and count)
+- `child_process`: access to create subprocesses, including other node apps
 
 ### 4 - What are some of the global properties available in NodeJS?
 
