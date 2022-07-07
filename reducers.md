@@ -55,6 +55,42 @@ const update = (object: Record<string, unknown>, action: Action) => {
 };
 ```
 
+Here's an example of counting by label.
+
+```ts
+const data = [
+  { valid: true, label: 'rock' },
+  { valid: true, label: 'tree' },
+  { valid: false, label: 'rock' },
+  { valid: true, label: 'water' },
+  { valid: true, label: 'rock' },
+  { valid: true, label: 'rock' },
+  { valid: true, label: 'water' },
+  { valid: false, label: 'rock' },
+  { valid: true, label: 'water' },
+  { valid: true, label: 'rock' },
+  { valid: false, label: 'tree' },
+  { valid: true, label: 'water' },
+  { valid: true, label: 'tree' },
+  { valid: true, label: 'water' },
+];
+
+function countByLabelReducer(currentCount, nextItem) {
+  const { label, valid } = nextItem;
+
+  if (valid) {
+    return {
+      ...currentCount,
+      [label]: (currentCount[label] || 0) + 1,
+    };
+  }
+
+  return currentCount;
+}
+
+data.reduce(countByLabelReducer, {});
+```
+
 ## Utilities
 
 One of the benefits of using the typical reducer function signature is that it can be used with the `Array.reduce` function
