@@ -16,6 +16,7 @@
  - [Simple React String Transformer App](https://github.wwt.com/hoekzemj/string-transformer)
  - [Fall 2021 Example React App](https://gitlab.wwt.com/fall_2021_apprentices/staffnado/-/tree/main)
  - [Redux Tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+ - [React Component Composition](https://frontendmastery.com/posts/advanced-react-component-composition-guide/)
  - [Server Side React with NextJS](https://nextjs.org/)
    - [Main Tutorial](https://nextjs.org/learn/basics/create-nextjs-app)
    - [YouTube Tutorial](https://www.youtube.com/watch?v=MFuwkrseXVE)
