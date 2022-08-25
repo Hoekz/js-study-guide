@@ -14,6 +14,7 @@
  - [React Testing Library](https://testing-library.com/docs/react-testing-library/cheatsheet)
  - [React Developer Tools Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
  - [Simple React String Transformer App](https://github.wwt.com/hoekzemj/string-transformer)
+ - [Basic TypeScript with React](https://ente.io/blog/tech/typescript-for-react/)
  - [Fall 2021 Example React App](https://gitlab.wwt.com/fall_2021_apprentices/staffnado/-/tree/main)
  - [Redux Tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
  - [React Component Composition](https://frontendmastery.com/posts/advanced-react-component-composition-guide/)
