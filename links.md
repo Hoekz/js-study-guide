@@ -11,6 +11,7 @@
  - [Typical Starting Place for Creating a React App](https://create-react-app.dev/)
  - [Udemy Lession on React + Redux](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
  - [React Hooks API Docs](https://reactjs.org/docs/hooks-reference.html)
+ - [useMemo and useCallback explanation](https://www.joshwcomeau.com/react/usememo-and-usecallback/)
  - [React Testing Library](https://testing-library.com/docs/react-testing-library/cheatsheet)
  - [React Developer Tools Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
  - [Simple React String Transformer App](https://github.wwt.com/hoekzemj/string-transformer)
